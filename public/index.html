@@ -1,17 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>hc-survey-results</title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but hc-survey-results doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title>Hillsborough County Citizens' Feedback Survey</title>
+
+  <!-- <link rel="stylesheet" href="https://unpkg.com/@hcflgov/vue-html-wrapper@3.0.0-0/dist/HcHtmlWrapper.css"> -->
+  <link rel="stylesheet" href="https://www.hillsboroughcounty.org/assets/css/vendor?v=QID2bUIAtfWCxxWSwQ2j26PN-OBNmTBYAoJNGdkM9t81">
+  <link rel="stylesheet" href="https://www.hillsboroughcounty.org/bundles/appstyles?v=RtmPRySLzRBR4KCH-k051Odh0tF5VfImFi6XhM9KKgU1">
+  <link rel="stylesheet" href="https://www.hillsboroughcounty.org/library/web/css/fixes.css">
+</head>
+<body>
+  <noscript>
+    <strong>We're sorry but this page doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+
+
+  <main id="body-content" class="d-flex flex-column">
+    <div class="container gray">
+
+      <div class="row">
+        <div class="hidden-xs col-sm-4 hc-left-nav">
+          <hr>
+        </div>
+
+        <div class="col-sm-8 hc-content-with-left-nav ">
+          <section clss="hc-main-text-content">
+
+            <h1 class="text-primary font-weight-bold">2019 Countywide Survey</h1>
+
+            <h3 class="text-secondary">The Results Are In!</h3>
+
+            <p>In the Spring of 2019, a sample of residents from throughout the County were asked to weigh in on their satisfaction with the overall quality of life in Hillsborough County. A total of 1,400 statistically-valid responses were collected during the telephonic survey period and an additional 2,318 responses were collected as part of the alternative online questionnaire.</p>
+
+            <p>To ensure that the survey collected responses that were reflective of Hillsborough County’s demographically-diverse population, third-party survey professionals conducted the telephonic study. </p>
+
+            <p>Data and insights gathered from the telephonic survey will be used as a baseline for how residents feel about Hillsborough County services and resources, as well as give the County more insight on key topics that impact the quality of life.</p>
+
+            <h3>At a Glance</h3>
+
+            <p>Overall, resident satisfaction with quality of life is high, with 93% expressing satisfaction. When asked whether they would personally recommend Hillsborough County to their friends, families, and acquaintances as a place to live, retire, raise children, work, vacation, or open a business, respondents overwhelmingly said "yes."</p>
+
+            <div id="app">
+              <div is="Hc2019CountywideSurvey" class="mb-3">
+                <div slot="average">
+                  <strong class="d-block">County Average</strong>
+                  <em>Would you recommend Hillsborough County to a friend, family member, or acquaintance, as a place to:</em>
+                  <ul>
+                    <li>
+                      97% Live
+                    </li>
+                    <li>
+                      97% Retire
+                    </li>
+                    <li>
+                      94% Raise Children
+                    </li>
+                    <li>
+                      90% Work
+                    </li>
+                    <li>
+                      79% Vacation
+                    </li>
+                    <li>
+                      72% Open a Business
+                    </li>
+                  </ul>
+                </div>
+                <div slot="district1">
+                  <strong class="d-block">District 1</strong>
+                  <em>Would you recommend Hillsborough County to a friend, family member, or acquaintance, as a place to:</em>
+                  <ul>
+
+                    <li>
+                      99% Live
+                    </li>
+                    <li>
+                      97% Retire
+                    </li>
+                    <li>
+                      96% Raise Children
+                    </li>
+                    <li>
+                      91% Work
+                    </li>
+                    <li>
+                      76% Vacation
+                    </li>
+                    <li>
+                      72% Open a Business
+                    </li>
+                  </ul>
+                </div>
+                <div slot="district2">
+                  <strong class="d-block">District 2</strong>
+                  <em>Would you recommend Hillsborough County to a friend, family member, or acquaintance, as a place to:</em>
+                  <ul>
+                    <li>
+                      99% Live
+                    </li>
+                    <li>
+                      99% Retire
+                    </li>
+                    <li>
+                      96% Raise Children
+                    </li>
+                    <li>
+                      92% Work
+                    </li>
+                    <li>
+                      71% Vacation
+                    </li>
+                    <li>
+                      65% Open a Business
+                    </li>
+                  </ul>
+                </div>
+                <div slot="district3">
+                  <strong class="d-block">District 3</strong>
+                  <em>Would you recommend Hillsborough County to a friend, family member, or acquaintance, as a place to:</em>
+                  <ul>
+                    <li>
+                      97% Live
+                    </li>
+                    <li>
+                      96% Retire
+                    </li>
+                    <li>
+                      93% Raise Children
+                    </li>
+                    <li>
+                      90% Work
+                    </li>
+                    <li>
+                      85% Vacation
+                    </li>
+                    <li>
+                      77% Open a Business
+                    </li>
+                  </ul>
+                </div>
+                <div slot="district4">
+                  <strong class="d-block">District 4</strong>
+                  <em>Would you recommend Hillsborough County to a friend, family member, or acquaintance, as a place to:</em>
+                  <ul>
+                    <li>
+                      95% Live
+                    </li>
+                    <li>
+                      95% Retire
+                    </li>
+                    <li>
+                      91% Raise Children
+                    </li>
+                    <li>
+                      89% Work
+                    </li>
+                    <li>
+                      85% Vacation
+                    </li>
+                    <li>
+                      74% Open a Business
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- built files will be auto injected -->
+</body>
 </html>

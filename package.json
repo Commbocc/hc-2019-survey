@@ -4,11 +4,12 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name Hc2019CountywideSurvey --formats umd,umd-min",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "esri-loader": "^2.10.0",
     "vue": "^2.6.10"
   },
   "devDependencies": {
