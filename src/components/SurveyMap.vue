@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="mb-3">
 
 
     <div class="embed-responsive embed-responsive-4by3 bg-dark">
@@ -75,7 +75,7 @@ export default {
 
       view.ui.add(homeBtn, "top-left")
 
-      view.on('click', (event) => view.hitTest(event).then(this.featureClicked))
+      // view.on('click', (event) => view.hitTest(event).then(this.featureClicked))
       homeBtn.on('go', this.homeButton)
     })
     // .catch(err => {
